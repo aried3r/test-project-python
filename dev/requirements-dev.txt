@@ -1,0 +1,5 @@
+ # Python dependencies required for development,
+astunparse
+future<3.0.0
+homebrew==1.0.0
+psutil>3.0, <4.0
