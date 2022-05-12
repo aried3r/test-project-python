@@ -1,0 +1,99 @@
+[[package]]
+name = "colorama"
+version = "0.4.4"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "pathlib2"
+version = "2.3.7.post1"
+description = "Object-oriented filesystem paths"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[[package]]
+name = "tqdm"
+version = "1.0"
+description = "A Simple Python Progress Meter"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "tqdm"
+version = "2.2.4"
+description = "A Fast, Extensible Progress Meter"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "tqdm"
+version = "3.8.0"
+description = "A Fast, Extensible Progress Meter"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "tqdm"
+version = "4.64.0"
+description = "Fast, Extensible Progress Meter"
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
+
+[package.dependencies]
+colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[package.extras]
+dev = ["py-make (>=0.1.0)", "twine", "wheel"]
+notebook = ["ipywidgets (>=6)"]
+slack = ["slack-sdk"]
+telegram = ["requests"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.7"
+content-hash = "7e2feb8968918bfbc4b7547e6d5cad18d5ed4d573275dcc737be90b14327b969"
+
+[metadata.files]
+colorama = [
+    {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
+]
+pathlib2 = [
+    {file = "pathlib2-2.3.7.post1-py2.py3-none-any.whl", hash = "sha256:5266a0fd000452f1b3467d782f079a4343c63aaa119221fbdc4e39577489ca5b"},
+    {file = "pathlib2-2.3.7.post1.tar.gz", hash = "sha256:9fe0edad898b83c0c3e199c842b27ed216645d2e177757b2dd67384d4113c641"},
+]
+six = [
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
+tqdm = [
+    {file = "tqdm-1.0.tar.gz", hash = "sha256:d4972cfd62cf50bf88f20749b536258a3f48b31515dea3ad5edd5fe52e742c6c"},
+    {file = "tqdm-2.2.4-py2.py3-none-any.whl", hash = "sha256:f5352b05e61036a57905fa2c78ccd331fbf169399f368d7556911d919d169739"},
+    {file = "tqdm-2.2.4.tar.gz", hash = "sha256:debefb7621b0c1a6d6ac6057edbaa2771582ccc4808f6c3d94fa5d322980ee88"},
+    {file = "tqdm-2.2.4.win32.exe", hash = "sha256:8e3c0a14f3983ee31282b3df30eb66eabaa5fe1585eea7ef38ae8bf7d2ac694e"},
+    {file = "tqdm-2.2.4.zip", hash = "sha256:43c794b7051d7d2e8a102d581bb21c65fe809ebf6e9d6bba55393cd806f4b493"},
+    {file = "tqdm-3.8.0-py2.py3-none-any.whl", hash = "sha256:f9182bf3a0fe98c254f1643af77526e8533bfe368f712bc3e00582da071f327f"},
+    {file = "tqdm-3.8.0.tar.gz", hash = "sha256:4981ebdae4a056549557ac495b3a533b0dd3e0162457246e906c4702a059f759"},
+    {file = "tqdm-3.8.0.win32.exe", hash = "sha256:8f93fe07307606e894f6eb4cfbc29224676111223486ab3cc47c4a29f017818f"},
+    {file = "tqdm-3.8.0.zip", hash = "sha256:f6a06d1e8eac4db93d1689d0982a7fd7c779cc658982249e529e5d7567c098af"},
+    {file = "tqdm-4.64.0-py2.py3-none-any.whl", hash = "sha256:74a2cdefe14d11442cedf3ba4e21a3b84ff9a2dbdc6cfae2c34addb2a14a5ea6"},
+    {file = "tqdm-4.64.0.tar.gz", hash = "sha256:40be55d30e200777a307a7585aee69e4eabb46b4ec6a4b4a5f2d9f11e7d5408d"},
+]

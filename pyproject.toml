@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-project-python"
+version = "0.1.0"
+description = ""
+authors = ["Joe Hakim <joe@ketryx.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tqdm = [
+    {version = "^1.0", python = "^3.7"},
+    {version = "^2.0", python = "^3.8"},
+    {version = "^3.0", python = "^3.9"},
+    {version = "*", python = "^3.0"}
+]
+pathlib2 = { version = "^2.2", markers = "python_version ~= '2.7' and sys_platform == 'win32'" }
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

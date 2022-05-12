@@ -1,4 +1,4 @@
-numpy==1.19.4
+numpy==1.16.2
 scipy==1.5.4
 pillow==8.0.1
 h3py==1.0.0
