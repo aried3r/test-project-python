@@ -3,3 +3,4 @@ greaterthantester>2.0.0
 lessthantester<4.0.0
 oneversiontester==5.0.0
 specificversiontester==1.2.3
+updatetester==1.0.0
