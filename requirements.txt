@@ -3,6 +3,9 @@ scipy==1.5.4
 pillow==8.0.1
 h3py==1.0.0
 matplotlib==3.3.3
-jupyterlab==2.2.9
-scikit-learn==0.23.2
-torch==1.11.0
+jupyterlab==2.2.9 --find-links=libs/test/test
+scikit-learn==0.23.2 --trusted-host 52.32.111.111
+torch==1.11.0 --index-url=https://nutrino.com
+--find-links=libs/test/test
+--index-url=https://nutrino.com
+--trusted-host 52.32.111.111
