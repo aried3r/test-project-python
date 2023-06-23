@@ -3,3 +3,5 @@ astunparse
 future<3.0.0
 homebrew==1.0.0
 psutil>3.0, <4.0
+opencv-contrib-python==4.1.0.25
+
